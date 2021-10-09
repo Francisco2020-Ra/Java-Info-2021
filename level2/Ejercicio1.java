@@ -5,17 +5,17 @@ import java.util.Scanner;
 
 public class Ejercicio1{
 
-
+    private static Scanner sc = new Scanner(System.in);
+    private static ArrayList<String> ciudades = new ArrayList<String>(); 
+    private static ArrayList<Integer> contador = new ArrayList<Integer>(); 
 
     public static void main(String[] args) {
         
-        sacarRanking();         
+        ingresarCiudades();
+        sacarRankig();         
     }
 
-    public static void sacarRanking(){
-        Scanner sc = new Scanner(System.in);
-        ArrayList<String> ciudades = new ArrayList<String>();
-        ArrayList<Integer> contador = new ArrayList<Integer>();
+    public static void ingresarCiudades(){
         int contar = 1;
         String op = "1";
 
@@ -50,7 +50,9 @@ public class Ejercicio1{
                 op = a;
             }
         }
-
+    }
+    
+    public static void sacarRankig(){
 
         System.out.println("\nRanking");
         int ranking = 0;
@@ -87,5 +89,6 @@ public class Ejercicio1{
         }
     }
 
+        
 }
 
