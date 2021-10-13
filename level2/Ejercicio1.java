@@ -26,7 +26,7 @@ public class Ejercicio1{
 
             if(!a.equals("0")){
                 //Recorre la lista ciudades
-                for(int i=0; i<=ciudades.size();i++){
+                for(int i=0; i<=ciudades.size();){
                     
                     //Si no existe el elemento lo agrega en minuscular
                     if(!ciudades.contains(a.toLowerCase())){

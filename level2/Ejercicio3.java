@@ -2,16 +2,6 @@ package level2;
 
 import java.util.*;
 
-/*Crear una lista que contenga como elementos 
-la numeración de cartas de una baraja francesa 
-(solo los valores, no figuras). 
-Se deberá cargar el ArrayList (en orden), 
-imprimir, 
-imprimir en orden inverso (reverse), 
-desordenar (mezclar) el arrayList 
-y volver a imprimir.
-**/
-
 public class Ejercicio3 {
     private static final Scanner sc = new Scanner(System.in);
     private static int op = -1;
@@ -68,13 +58,17 @@ public class Ejercicio3 {
         }
         System.out.println("Lista cargada con exito!!Continuemos..."); 
     }
+
     public static void imprimir(){
+
         System.out.println("Lista de cartas");
         for(Integer valor : lista){
             System.out.println(valor);
         }
     }
+
     public static void imprimirInverso(){ 
+        
         Collections.reverse(lista);
         System.out.println(lista);  
 
