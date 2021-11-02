@@ -55,6 +55,8 @@ public class Ejercicio2 {
                 lista.clear();
                 sc.nextLine();
                 agregarNumero();
+            }finally{
+                sc.close();
             }           
         }
     }
