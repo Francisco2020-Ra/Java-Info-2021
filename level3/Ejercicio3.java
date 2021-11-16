@@ -1,22 +1,20 @@
 package level3;
-
 /*
 Se dispone de una lista de Strings,de la cual saber la cantidad de valores
 que comiencen con la letra B (tanto mayúscula como minúscula, en ese
 caso decimos que será ignoreCase).
 */
 
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Locale;
-import java.util.Objects;
 import java.util.stream.Collectors;
 
 public class Ejercicio3 {
+
     public static void main(String[] args) {
         imprimirCantidad(
             crearLista()
         );
+
     }
 
     public static List<String> crearLista(){
@@ -32,6 +30,5 @@ public class Ejercicio3 {
                 .collect(Collectors.toList());
 
         System.out.println(palabras.size());
-
     }
 }
