@@ -15,10 +15,12 @@ public class Ejercicio2 {
         );
     }
 
+    //Funcion que devuelve una lista de objetos de tipo enteros
     public static List<Integer> numeroEnteros(){
         return List.of(1, 2, 3, 4, 5);
     }
 
+    //Funcion que imprime un objeto de tipo entero elevado a la potencia cuadrada
     public static void potenciaciacion(List<Integer> numeroEnteros){
         List<Integer> potencia = numeroEnteros.stream()
                 .map(n -> n*n)
