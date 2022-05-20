@@ -1,0 +1,7 @@
+Francisco,Romero,34599433,5,650
+Francisco,Romero,34599434,5,750
+Francisco,Romero,34599436,5,150
+Francisco,Romero,34599437,5,250
+Francisco,Romero,34599438,5,350
+Francisco,Romero,34599439,5,450
+Francisco,Romero,34599431,5,550
