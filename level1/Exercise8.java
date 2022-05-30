@@ -18,7 +18,7 @@ public class Exercise8 {
         String city = request_date_message("City: ");
         sc.close();
 
-        print(name + " - " + address + " - " + age + " - " + name);
+        print(city + " - " + address + " - " + age + " - " + name);
     }
 
     private static String request_date_message(String message) {
@@ -29,5 +29,4 @@ public class Exercise8 {
     private static void print(String message) {
         System.out.print(message);
     }
-
 }
